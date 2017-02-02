@@ -9,7 +9,7 @@ configureStoreProd = (initialState) => {
     return createStore(
         rootReducer,
         initialState,
-        applyMiddleware(thunkMiddlewar, ToasterMiddleware)
+        applyMiddleware(thunkMiddleware, ToasterMiddleware)
     );
 };
 
