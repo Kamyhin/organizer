@@ -4,7 +4,7 @@ import rootReducer from '../reducers'
 import { ToasterMiddleware } from '../middlewares.js'
 
 
-configureStoreProd = (initialState) => {
+const configureStoreProd = (initialState) => {
 
     return createStore(
         rootReducer,
